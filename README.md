@@ -23,6 +23,11 @@ text 4
 | ----      | -------        | ------------ |
 | something | something else | a number     |
 
+# Another table, but without the separator
+| Name      | Address        | phone number |
+| something | something else | a number     |
+| something | something else | a number     |
+
 some `code()` goes here
 
 *Bold text*
