@@ -25,6 +25,7 @@ text 4
 
 # Another table, but without the separator
 | Name      | Address        | phone number |
+| ----      | -------        | ------------ |
 | something | something else | a number     |
 | something | something else | a number     |
 
