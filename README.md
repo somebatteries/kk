@@ -1,14 +1,18 @@
-Knock Knock
-# h1
-Text 1
-
-- li 1
-- li 2
-- li 3
-
-    - li 1
-    - li 2
-    - li 3
+# Knock Knock
+# TODO:
+- How to train custom YOLO models?
+- What does the classifier output?
+    - A tuple containing:
+        - (cell_i, cell_j)
+        - classification:
+            - My car (custom model)
+            - GF car (custom model)
+            - other car (yolo car)
+            - a human
+- Determine how to generate ground truth data
+    - Handling lighting conditions
+    - Labelling data
+- Generate ground truth data
 
 ## h2
 Test 2
