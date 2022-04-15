@@ -1,6 +1,19 @@
 # Knock Knock
 # TODO:
 - How to train custom YOLO models?
+    - Could use labelLMG?
+        - But this requires hand labelling.
+    - Record stock footage of the desired vehicle (keeping it centered)
+        - Use stock yolov3 find vehicles
+        - for each frame
+            - for each vehicle
+                - compute the distances to the center of the image
+            - select the vehicle closest to the center of the image
+            - save this frame and the bb of the selected vehicle
+    - zip up the images, upload to google cloud
+    - use PySource python notebook, uploading to google cloud
+        - ./Train_YoloV3.ipynb
+
 - What does the classifier output?
     - A tuple containing:
         - (cell_i, cell_j)
@@ -54,4 +67,4 @@ Horiz line 2
 
 * item a
 * item b
-* item c
+
