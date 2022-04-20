@@ -1,6 +1,17 @@
 # Knock Knock
 # TODO:
 - How to train custom YOLO models?
+    - Realtime training:
+        - Create a network that is trained just barely on known
+        vehicles, but well trained on unknown vehicles, using COCO
+        - Implement application code to run the detector
+        - If an unknown vehicle is detected:
+            - save the image as training data in a folder on the device
+            - Notify user of unknown vehicle
+            - Present option to label this vehicle as one of the known
+              vehicles, moving it into the folder for that class label
+            - When user labels the vehicle, do a fit using that sample( ** how the hell do i do that )
+
     - Could use labelLMG?
         - But this requires hand labelling.
     - Record stock footage of the desired vehicle (keeping it centered)
